@@ -16,73 +16,85 @@ body {
 }
 
 header {
-	width: 920px;
-	height: 80px;
+	width: 900px;
+	height: 40px;
 	background-color: #ebebeb;
-	border: 1px solid black;
 	margin: 0 10px 10px 10px;
+	padding: 10px;
+	vertical-align: middle;
 }
 
 
 nav {
-	width: 920px;
-	height: 80px;
+	width: 900px;
+	height: 40px;
 	background-color: #ebebeb;
-	border: 1px solid black;
 	margin: 10px;
+	padding: 10px;
+}
+
+.main {
+	margin: 10px 0;
+	background-color: green;
 }
 
 
 section {
-	width: 495px;
-	height: 300px;
+	width: 455px;
+	height: 280px;
 	background-color: #ebebeb;
-	border: 1px solid black;
 	margin: 10px;
+	padding: 20px 20px 0px 20px;
 	float: left;
-	/*padding: 20px;*/
-
 }
 
 article {
 	width: 90%;
 	height: 200px;
 	background-color: #777;
-	border: 1px solid black;
 	padding: 10px;
 	color: #ffffff;
-	margin: 10px auto;
+	margin: 0px auto;
+	position: relative;
+	bottom: -29px;
 }
 
 .headline, .paragraph{
 	width: 90%;
 	height: 50px;
 	background-color: #ebebeb;
-	border: 1px solid black;
-	margin: 10px 0;
+	margin: 10px auto;
 	padding: 10px;
 	color: #000000;
 }
 
-h1, h2, p {
+h1, h2 {
+	text-align: center;
+	margin: auto;
+	font-size: 26px
+}
+
+p {
 	text-align: center;
 	margin: auto;
 }
 
 aside {
-	width: 385px;
-	height: 300px;
+	width: 361px;
+	height: 260px;
 	background-color: #ebebeb;
-	border: 1px solid black;
 	margin: 10px;
+	padding:20px;
 	float: left;
 	/*padding: 20px;*/
 }
 footer {
-	width: 920px;
-	height: 100px;
+	width: 900px;
+	height: 40px;
 	background-color: #ebebeb;
-	border: 1px solid black;
 	margin: 10px;
+	padding: 10px;
 	clear: both;
+	position: relative;
+	top: 10px;
 }
